@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It showed me which exact lines were different between two versions.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I will be able to tell how each version of the program changed, line by
+    line, and what went wrong if there is some kind of problem with it.
+    Also - I will be able to recover my train of thought after I check older
+    versions of the program after I make a break in programming.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I can commit when I want, and what I want exactly, so I will try to send
+    working code only - Google would files automatically , and probably would
+    snip some lines of code before I was done writing it.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows to store snapshots of all the files in a directory
+    simultaneously, which allows to make changes to multiple files at once.
+    It's mostly for source code files. Google Docs was made for documents in
+    mind, so it makes sense that it only treats whole document files separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can check what kind of changes each commit made using the git log command,
+    and which lines were added or deleted in those commits using git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control I can always go back to a working version after I
+    introduce something or change something that breaks everything.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For saving different versions of my project for internet applications. :)
