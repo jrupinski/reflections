@@ -1,1 +1,3 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+Because it's way harder to share local files with other people, especially if they're far away. Local copies are also prone to breaking (hardware failure), and it's possible that a virus or other malicious software might delete or modify some crucial files. Keeping it in a remote repository allows other users to simply clone the repo to get the newest version of said files, and allows modifying them with ease. It's also safer because no one malicious can get to those files.
