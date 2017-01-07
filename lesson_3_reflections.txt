@@ -6,3 +6,10 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Because I might want to operate on older version that worked better/had different functionality than the newest version on the branch, and then create a different branch based on this old commit.
 If it was done automatically, it might ruin my program, because newest version might use different code than the older version. That's why I want to pull changes by hand.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used when you want to use somebody else's project from their repository and create a modified version of it that you want to use or share, either for yourself, or for the original creator to consider adding these features to.
+Clone is used to download the whole repository (either yours or not) to your PC for local use and modification.
+Branches are used if you want to test or add some new experimental features in the master branch of the programs without destroying or modifying the master branch code - you just branch off of it and work alongside it in your own branch.
