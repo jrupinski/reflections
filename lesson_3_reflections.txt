@@ -1,3 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 Because it's way harder to share local files with other people, especially if they're far away. Local copies are also prone to breaking (hardware failure), and it's possible that a virus or other malicious software might delete or modify some crucial files. Keeping it in a remote repository allows other users to simply clone the repo to get the newest version of said files, and allows modifying them with ease. It's also safer because no one malicious can get to those files.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because I might want to operate on older version that worked better/had different functionality than the newest version on the branch, and then create a different branch based on this old commit.
+If it was done automatically, it might ruin my program, because newest version might use different code than the older version. That's why I want to pull changes by hand.
