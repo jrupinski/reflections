@@ -23,3 +23,8 @@ It's useful if your internet connection goes down and after that (before pulling
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I think I would just use the copy-paste method, or sending each other the files to merge between each other. The only easier thing is that we wouldn't have to write commit messages every time we wanted to merge our files. Everything else would be a lot harder and easier to break, for example merging conflicting files - we couldn't just copy and paste them, that would overwrite one file with the other without merging the changes from both!
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It's useful for testing out and creating new functions to the project. It also enables pull commits - they allow other contributors to add new commits/changes to github without merging it with the master branch, it also allows to review the changes, suggest improvements and avoid conflicts between people who are working on a tip of the branch that was older than the newest one. People can discuss changes, comment on lines of code and fix the merge errors without breaking the master branch.
